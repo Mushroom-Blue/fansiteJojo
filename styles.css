@@ -1,0 +1,111 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/jojobackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.sizingDiv {
+  width: 75%;
+  margin: auto;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./img/jojodioheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headerText {
+  padding: 10px;
+}
+
+.headerTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgba(240, 248, 255, 0.75);
+  height: 55px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.textOneContainer {
+  width: 1000px;
+}
+
+.textOneText {
+  color: white;
+}
+
+.imageOneContainer {
+  height: 550px;
+  width: 1000px;
+}
+
+.imageOneImage {
+  width: 100%;
+  height: 100%;
+}
+
+.textTwoContainer {
+  width: 1000px;
+}
+
+.textTwoText {
+  color: white;
+}
+
+.imageTwoContainer {
+  height: 500px;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.imageTwoImage {
+  width: 100%;
+  height: 100%;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(40, 46, 67);
+}
+
+.footerText {
+  color: #459b56;
+}
+
