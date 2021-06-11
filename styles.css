@@ -24,11 +24,19 @@ body {
   margin: auto;
 }
 
+@media (max-width: 400px){
+  .sizingDiv {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 .headerContainer {
   display: flex;
   width: 100%;
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid white;
+  border-top: none;
   justify-content: center;
   align-items: flex-end;
   background-image: url(./img/jojodioheader.jpg);
@@ -36,8 +44,22 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 400px) {
+  .headerContainer {
+    background-position: center;
+  }
+}
+
 .headerText {
   padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+@media (max-width: 400px) {
+  .headerText {
+    font-size: 22px;
+    text-align: center;
+  }
 }
 
 .headerTextBox {
@@ -63,8 +85,18 @@ body {
   width: 1000px;
 }
 
+@media (max-width: 400px){
+  .textOneContainer {
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 .textOneText {
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imageOneContainer {
@@ -72,17 +104,35 @@ body {
   width: 1000px;
 }
 
+@media (max-width: 400px) {
+  .imageOneContainer {
+    height: 175px;
+    width: 300px;
+  }
+}
+
 .imageOneImage {
   width: 100%;
   height: 100%;
+  border: 1px solid white;
 }
 
 .textTwoContainer {
   width: 1000px;
 }
 
+@media (max-width: 400px){
+  .textTwoContainer {
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 .textTwoText {
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imageTwoContainer {
@@ -91,21 +141,40 @@ body {
   margin-bottom: 50px;
 }
 
+@media (max-width: 400px) {
+  .imageTwoContainer {
+    height: 175px;
+    width: 300px;
+  }
+}
+
 .imageTwoImage {
   width: 100%;
   height: 100%;
+  border: 1px solid white;
 }
 
 .footerDiv {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
+  border-bottom: none;
   width: 100%;
   height: 45px;
   background-color: rgb(40, 46, 67);
 }
 
+@media (max-width: 400px) {
+  .footerDiv {
+    border: none;
+    border-top: 1px solid white;
+  }
+}
+
+
 .footerText {
   color: #459b56;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
